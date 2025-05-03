@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recycle_mobile/util/colors.dart';
+import 'package:recycle_mobile/screens/loginScreen.dart';
+// import 'package:recycle_mobile/screens/registerScreen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -45,7 +47,10 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       onPressed: () {
-                        // Navigasi ke halaman Login
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const LoginScreen()),
+                        );
                       },
                       child: const Text(
                         'Login',
@@ -85,7 +90,10 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       onPressed: () {
-                        // Navigasi ke halaman Sign Up
+                        // Navigator.push(
+                        //   context,
+                        //   MaterialPageRoute(builder: (context) => const RegisterScreen()),
+                        // );
                       },
                       child: const Text(
                         'Sign Up',
