@@ -1,6 +1,7 @@
 import 'package:recycle_mobile/screens/howToUse.dart';
 import 'package:recycle_mobile/screens/landingScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:recycle_mobile/screens/welcomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const HowToUseScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }

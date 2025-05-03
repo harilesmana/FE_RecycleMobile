@@ -19,7 +19,7 @@ class HowToUseScreen extends StatelessWidget {
                   const Text(
                     "How to use?",
                     style: TextStyle(
-                      fontSize: 30,
+                      fontSize: 28,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
