@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recycle_mobile/util/colors.dart';
 import 'package:recycle_mobile/screens/welcomeScreen.dart';
-import 'package:recycle_mobile/screens/howToUse.dart';
+import 'package:recycle_mobile/screens/howToUseScreen.dart';
 
 class LandingScreen extends StatelessWidget {
   const LandingScreen({super.key});

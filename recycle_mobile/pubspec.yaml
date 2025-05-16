@@ -63,6 +63,7 @@ flutter:
     - assets/images/log.png
     - assets/images/scanner.png
     - assets/images/moneyBag.png
+    - assets/images/recycleBottles.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
